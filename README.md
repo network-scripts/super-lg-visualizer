@@ -74,7 +74,7 @@ DOM walk (TreeWalker)
 |---|---|
 | `bgp_sunburst.js` | Full source with comments — the canonical version |
 | `install.html` | Open in Firefox to get the drag-and-drop bookmarklet button |
-| `screenshot.svg` | Preview image |
+| `screenshot.png` | Preview image |
 
 ---
 
