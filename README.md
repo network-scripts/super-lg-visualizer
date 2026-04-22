@@ -8,9 +8,8 @@ A zero-dependency **bookmarklet** that visualises BGP AS-path data from [bgp.too
 
 ## Installation
 
-1. Open [install.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/network-scripts/super-lg-visualizer/refs/heads/main/install.html) (or the page linked below) in Firefox
-2. Make sure your bookmarks bar is visible — `View → Toolbars → Bookmarks Toolbar`
-3. **Drag the button onto your bookmarks bar:**
+1. Open [install.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/network-scripts/super-lg-visualizer/refs/heads/main/install.html)
+2. Drag the button into your browser bookmark bar, or right-click it and save to bookmarks.
 
 ---
 
