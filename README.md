@@ -58,14 +58,6 @@ DOM walk (TreeWalker)
   Render on HiDPI-aware Canvas 2D
 ```
 
-### Key implementation notes
-
-- **Self-contained** — no external libraries, no network requests after page load
-- **HiDPI rendering** — canvas bitmap sized at `logical × devicePixelRatio`; all draw calls use logical CSS pixels via a single `ctx.scale(dpr, dpr)`
-- **Label clipping** — each label is clipped to its arc segment, so partially-fitting text is cut cleanly
-- **Angle wrap fix** — arc span `dA` and midpoint `midA` are computed from the original `[0, 2π]` angles, not the screen-space angles that can go negative for arcs crossing the top of the circle
-- **Community flush timing** — communities are flushed to the previous record at the *start* of each new `BGP.as_path:` record, because the DOM text node that ends a community block and starts the next path header is a single combined text node
-
 ---
 
 ## Files
@@ -75,13 +67,6 @@ DOM walk (TreeWalker)
 | `bgp_sunburst.js` | Full source with comments — the canonical version |
 | `install.html` | Open in Firefox to get the drag-and-drop bookmarklet button |
 | `screenshot.png` | Preview image |
-
----
-
-## Tested on
-
-- Firefox 124+ on Linux, Windows, macOS
-- bgp.tools/super-lg (April 2026 DOM structure)
 
 ---
 
